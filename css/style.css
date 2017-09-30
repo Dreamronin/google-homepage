@@ -1,4 +1,39 @@
-/*This'll normalize css so you can start from scratch*/
-@import url("normalize.css");
-
-/*Main CSS*/
+.viewport {
+	font-family: arial, sans-serif;
+	max-width: 920px;
+}
+.top-menu {
+	margin-bottom: 75px;
+}
+.searchbox {
+	margin: auto;
+	max-width: 500px;
+	padding-top: 109px;
+	}
+.fill {
+	width: 100%;
+}
+.icon {
+	display: block;
+	margin: auto;
+}
+.searchinput {
+	background-color: white;
+	border: 1px solid #E6E6E6;
+	box-shadow: 1px 1px 3px #E6E6E6;
+	color: black;
+	padding: 15px;
+}
+.button-box {
+	padding: 30px 0 10px 0;
+	text-align: center;
+}
+.buttons {
+	background: linear-gradient(to bottom,whitesmoke,#f1f1f1);
+	border: hidden;
+	border-radius: 3px;
+	color: grey;
+	font-size: 13px;
+	font-weight: 700;
+	padding: 10px 30px;
+}
