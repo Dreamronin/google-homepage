@@ -1,13 +1,48 @@
 .viewport {
 	font-family: arial, sans-serif;
 }
+ul	{
+	list-style-type: none;
+	padding: 0;
+}
+li {
+	float: right;
+}
+li a {
+	color: #5F3F3F;
+	margin: 9px;
+	text-decoration: none;
+}
+li a:hover {
+	text-decoration: underline;
+}
+.appicon {
+	background-image: url(../images/icons.png);
+	background-position: -136px -42px;
+	background-repeat: no-repeat;
+	background-size: 528px 68px;
+	opacity: 0.5;
+	padding: 2px 11px 3px 11px;
+}
+.appicon:hover {
+	opacity: 1;
+	}
+.bellicon {
+	background-color: black;
+	background-image: url(../images/bell.png);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: 14px 14px;
+	border-radius: 100%;
+	padding: 1px 9px;
+}
 .top-menu {
 	margin-bottom: 75px;
 }
 .searchbox {
 	margin: auto;
 	max-width: 500px;
-	padding-top: 109px;
+	padding-top: 190px;
 	}
 .fill {
 	width: 100%;
@@ -34,5 +69,10 @@
 	color: grey;
 	font-size: 13px;
 	font-weight: 700;
+	margin: 0 8px 0 8px;
 	padding: 10px 30px;
+}
+.buttons:hover {
+	border: 1px solid lightgrey;
+	color: black;
 }
