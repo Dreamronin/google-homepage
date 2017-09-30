@@ -1,5 +1,9 @@
 .viewport {
 	font-family: arial, sans-serif;
+	margin: 0;
+	min-height: 100%;
+	min-width: 100%;
+	position: absolute;
 }
 ul	{
 	list-style-type: none;
@@ -64,7 +68,7 @@ li a:hover {
 }
 .buttons {
 	background: linear-gradient(to bottom,whitesmoke,#f1f1f1);
-	border: hidden;
+	border: 1px solid white;
 	border-radius: 3px;
 	color: grey;
 	font-size: 13px;
@@ -75,4 +79,17 @@ li a:hover {
 .buttons:hover {
 	border: 1px solid lightgrey;
 	color: black;
+}
+.footer {
+	background-color: #E4E4E4;
+	bottom:0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+}
+.bleft {
+	float: left;
+}
+.bright {
+	float: right;
 }
